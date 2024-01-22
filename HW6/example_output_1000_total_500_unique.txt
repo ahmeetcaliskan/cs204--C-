@@ -1,0 +1,122 @@
+#######################################################################################
+HyperLogLog Using ax+b hash
+buckets: 2 HyperLogLog estimate: 2.39289
+buckets: 4 HyperLogLog estimate: 5.30117
+buckets: 8 HyperLogLog estimate: 17.2154
+buckets: 16 HyperLogLog estimate: 24.3947
+buckets: 32 HyperLogLog estimate: 44.608
+buckets: 64 HyperLogLog estimate: 174.514
+buckets: 128 HyperLogLog estimate: 1090.14
+buckets: 256 HyperLogLog estimate: 388.347
+buckets: 512 HyperLogLog estimate: 998.336
+buckets: 1024 HyperLogLog estimate: 1201.18
+buckets: 2048 HyperLogLog estimate: 1892.21
+buckets: 4096 HyperLogLog estimate: 3341.13
+buckets: 8192 HyperLogLog estimate: 6283.17
+#######################################################################################
+#######################################################################################
+HyperLogLog Using MurMurHash
+buckets: 2 HyperLogLog estimate: 2.39289
+buckets: 4 HyperLogLog estimate: 5.30117
+buckets: 8 HyperLogLog estimate: 14.9714
+buckets: 16 HyperLogLog estimate: 141.364
+buckets: 32 HyperLogLog estimate: 708.71
+buckets: 64 HyperLogLog estimate: 2879.49
+buckets: 128 HyperLogLog estimate: 2929.75
+buckets: 256 HyperLogLog estimate: 1238.76
+buckets: 512 HyperLogLog estimate: 962.688
+buckets: 1024 HyperLogLog estimate: 1201.18
+buckets: 2048 HyperLogLog estimate: 1887.49
+buckets: 4096 HyperLogLog estimate: 3336.52
+buckets: 8192 HyperLogLog estimate: 6280.72
+#######################################################################################
+#######################################################################################
+KMinVal Using ax + b hash
+buckets: 2 KMinVal estimate: 487.394
+buckets: 4 KMinVal estimate: 646.973
+buckets: 8 KMinVal estimate: 561.098
+buckets: 16 KMinVal estimate: 632.384
+buckets: 32 KMinVal estimate: 695.078
+buckets: 64 KMinVal estimate: 516.757
+buckets: 128 KMinVal estimate: 519.61
+buckets: 256 KMinVal estimate: 507.975
+buckets: 512 KMinVal estimate: 511
+buckets: 1024 KMinVal estimate: 1023
+buckets: 2048 KMinVal estimate: 2047
+buckets: 4096 KMinVal estimate: 4095
+buckets: 8192 KMinVal estimate: 8191
+#######################################################################################
+#######################################################################################
+KMinVal Using MurMurHash
+buckets: 2 KMinVal estimate: 578.755
+buckets: 4 KMinVal estimate: 590.516
+buckets: 8 KMinVal estimate: 1080.34
+buckets: 16 KMinVal estimate: 526.146
+buckets: 32 KMinVal estimate: 463.157
+buckets: 64 KMinVal estimate: 442.814
+buckets: 128 KMinVal estimate: 447.167
+buckets: 256 KMinVal estimate: 487.517
+buckets: 512 KMinVal estimate: 511
+buckets: 1024 KMinVal estimate: 1023
+buckets: 2048 KMinVal estimate: 2047
+buckets: 4096 KMinVal estimate: 4095
+buckets: 8192 KMinVal estimate: 8191
+#######################################################################################
+#######################################################################################
+BloomFilter using ax + b hash
+size: 64 k: 5 Inserted: 100 TP: 100 FP: 100
+size: 64 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 100 TP: 100 FP: 96
+size: 128 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 100 TP: 100 FP: 64
+size: 256 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 512 k: 5 Inserted: 100 TP: 100 FP: 26
+size: 512 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 1024 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 1024 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 2048 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 2048 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 4096 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 4096 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 8192 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 8192 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 16384 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 16384 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 32768 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 32768 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 65536 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 65536 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 131072 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 131072 k: 5 Inserted: 500 TP: 100 FP: 100
+#######################################################################################
+#######################################################################################
+BloomFilter using MurMurHash
+size: 64 k: 5 Inserted: 100 TP: 100 FP: 85
+size: 64 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 128 k: 5 Inserted: 100 TP: 100 FP: 62
+size: 128 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 256 k: 5 Inserted: 100 TP: 100 FP: 46
+size: 256 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 512 k: 5 Inserted: 100 TP: 100 FP: 38
+size: 512 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 1024 k: 5 Inserted: 100 TP: 100 FP: 28
+size: 1024 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 2048 k: 5 Inserted: 100 TP: 100 FP: 23
+size: 2048 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 4096 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 4096 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 8192 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 8192 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 16384 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 16384 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 32768 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 32768 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 65536 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 65536 k: 5 Inserted: 500 TP: 100 FP: 100
+size: 131072 k: 5 Inserted: 100 TP: 100 FP: 22
+size: 131072 k: 5 Inserted: 500 TP: 100 FP: 100
+#######################################################################################
+
+C:\Users\ahmet\source\repos\ahmet.caliskan_Caliskan_Ahmet_HW6\x64\Debug\ahmet.caliskan_Caliskan_Ahmet_HW6.exe (process 19052) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
